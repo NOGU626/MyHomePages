@@ -55,12 +55,12 @@ article h1:after {
 
 article img {
     padding: 10px;
-    width: 30%;
+    width: 30%;max-width: 300px;
     height: auto;
 }
 
 .contents {
-    display: flex;
+    display: block;
 }
 
 .contents table {

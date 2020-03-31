@@ -24,7 +24,9 @@ class App extends Component {
                 <article className={"top"}>
                     <h1>NOGUのプロフィール</h1>
                     <div className={"contents"}>
+                        <center>
                     <img src={profile} alt={"自己紹介"} />
+                        </center>
                     <table>
                         <tbody>
                         <tr>
