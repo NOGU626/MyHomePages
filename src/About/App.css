@@ -1,0 +1,89 @@
+
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+article.top {
+  background-color: white ;
+  width:1100px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid 1px #aaaaaa;
+  padding:30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+article h1 {
+  position: relative;
+  padding-left: 25px;
+  color: #0069b9;
+  font-family: 'Hiragino Kaku Gothic Pro',
+  'Comic Sans MS','sans-serif';
+  font-weight: bold;
+}
+
+article h1:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px #f5a02d;
+}
+article h1:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 10px;
+  width: 100%;
+  border-bottom: solid 3px #f5a02d;
+}
+
+article img {
+  padding: 10px;
+  width:30%;
+  height: auto;
+}
+
+.contents{
+  display: flex;
+}
+.contents table{
+  margin: 10px;
+  border-collapse: collapse ;
+}
+th,td{
+  padding: 5px 10px 5px 10px;
+}
+
+table, th, td{
+  border:solid 1px #aaaaaa;
+}
+
+article {
+  background-color: white ;
+  width:1100px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid 1px #aaaaaa;
+  padding:30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
